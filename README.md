@@ -1,7 +1,8 @@
 # bcog-final-project
 My final project will be a 3 layer multi-layer perceptron built using Python and NumPy rather than using other libraries. This will be harder than a single layer perceptron as it will require calculus rather than simple arithmetic for one layer. This is going to use some kind of health images to determine biological differences or problems, like blood cells. An example could be the MedMNIST dataset on Kaggle.  
 
-function_loading = A function to handle loading the raw images, converting them to grayscale to save storage/data, and resizing it to a uniform size  in pixels. It flattens the 2D images into 1D arrays and normalizes pixel values to a 0-1 range to make the math processing easier.
+function_loading = A function to handle loading the raw images, converting them to grayscale to save storage/data, and resizing it to a uniform size  in pixels. It flattens the 2D images into 1D arrays and normalizes pixel values to a 0-1 range to make the math processing easier.  
+
 function_feed_forward = This function will feed the info forward through the network's layers. It calculates the weighted sums and applies an activation function to transform raw pixel data into a final "probability score" that represents the model's guess.  
 
 function_train = This function will be implementing backpropagation to update the network’s weights based on diagnostic errors or a loss function. By calculating the gradient of the loss function, we can work towards gradient descent to adjust synaptic strengths between layers to improve the MLP's accuracy over multiple exposures to the medical dataset.
