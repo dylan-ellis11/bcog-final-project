@@ -1,5 +1,7 @@
 # bcog-final-project
-My final project will be a 3 layer multi-layer perceptron built using Python and NumPy rather than using other libraries. This will be harder than a single layer perceptron as it will require calculus rather than simple arithmetic for one layer. This is going to use MedMNIST datasets on health images to determine biological problems within between healthy and unhealthy blood cells. This will be useful for building an AI system to help identify the condition/health of people who undergo blood tests.
+My final project will be a 3 layer multi-layer perceptron built using Python and NumPy rather than using other libraries. This will be harder than a single layer perceptron as it will require calculus rather than simple arithmetic for one layer. This is going to use MedMNIST datasets on health images to determine biological problems within between healthy and unhealthy blood cells. This will be useful for building an AI system to help identify the condition/health of people who undergo blood tests.  
+
+Requirements for data are either numpy files in .npz format or usage of .png or .jpg files in low pixel formats, like 28x28 as MedMNIST offers. The pixel values will float values between 0 and 1. Then, to correctly train the MLP, we will have training_images, training_labels, testing_images, and testing_labels. These labels for the data will help train and test the MLP.
 
 function_loading = A function to handle loading the raw images, converting them to grayscale to save storage/data, and resizing it to a uniform size  in pixels. It flattens the 2D images into 1D arrays and normalizes pixel values to a 0-1 range to make the math processing easier.  
 
