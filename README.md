@@ -1,5 +1,5 @@
 # bcog-final-project
-My final project will be a 3 layer multi-layer perceptron built using Python and NumPy rather than using other libraries. This will be harder than a single layer perceptron as it will require calculus rather than simple arithmetic for one layer. This is going to use some kind of health images to determine biological differences or problems, like blood cells. An example could be the MedMNIST dataset on Kaggle.  
+My final project will be a 3 layer multi-layer perceptron built using Python and NumPy rather than using other libraries. This will be harder than a single layer perceptron as it will require calculus rather than simple arithmetic for one layer. This is going to use MedMNIST datasets on health images to determine biological problems within between healthy and unhealthy blood cells.
 
 function_loading = A function to handle loading the raw images, converting them to grayscale to save storage/data, and resizing it to a uniform size  in pixels. It flattens the 2D images into 1D arrays and normalizes pixel values to a 0-1 range to make the math processing easier.  
 
